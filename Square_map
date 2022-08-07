@@ -1,0 +1,7 @@
+lst = []
+ran = int(input("Enter range:"))
+for i in range(0,ran):
+    ele = int(input())
+    lst.append(ele)
+sq_lst = map(lambda n: n*n,lst)
+print(list(sq_lst))
