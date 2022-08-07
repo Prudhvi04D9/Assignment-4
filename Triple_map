@@ -1,0 +1,7 @@
+lst = []
+ran = int(input("Enter range:"))
+for i in range(0,ran):
+    ele = int(input())
+    lst.append(ele)
+tri_lst = map(lambda x:x*3, lst)
+print(list(tri_lst))
