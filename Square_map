@@ -3,5 +3,5 @@ ran = int(input("Enter range:"))
 for i in range(0,ran):
     ele = int(input())
     lst.append(ele)
-sq_lst = map(lambda n: n*n,lst)
+sq_lst = map(lambda x:x*x,lst)
 print(list(sq_lst))
